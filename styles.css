@@ -56,7 +56,7 @@ label:not(:has([type="radio"], [type="file"])) {
 
 select,
 input:not([type="radio"]) {
-  border: 2px solid #E4E4E4;
+  border: 1px solid #E4E4E4;
   font-size: inherit;
   color: inherit;
   padding: 10px 8px;
@@ -68,6 +68,7 @@ input:not([type="radio"]) {
 
   &:focus {
     border: 2px solid #007BFF;
+    padding: 9px 7px;
   }
 }
 
